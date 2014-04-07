@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>File index of [<%= baseUri %>]</title>
+</head>
+<body>
+    <ul>
+        <% for(var i = 0; i < list.length; i++) { %>
+        <li><a href="<%= baseUri %><% if(baseUri[baseUri.length - 1] !== "/" && baseUri[baseUri.length - 1] !== "\\") { %>/<% } %><%= list[i] %>"><%= list[i] %></a></li>
+        <% } %>
+    </ul>
+</body>
+</html>

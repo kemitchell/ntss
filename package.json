@@ -1,0 +1,30 @@
+{
+  "name": "ntss",
+  "version": "0.0.1",
+  "description": "A tiny static server for node.js.",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "~1.0.0",
+    "log4js": "~0.6.12",
+    "async": "~0.7.0",
+    "optimist": "~0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/XadillaX/ntss.git"
+  },
+  "keywords": [
+    "static",
+    "server"
+  ],
+  "author": "XadillaX",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/XadillaX/ntss/issues"
+  },
+  "homepage": "https://github.com/XadillaX/ntss"
+}
