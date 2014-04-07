@@ -8,15 +8,21 @@ You can use it as a personal download server or static page server. Just for con
 Installation
 ----
 
-```javascript
-npm install -g ntss
+```sh
+npm install ntss
+```
+
+or
+
+```sh
+git clone https://github.com/XadillaX/ntss.git
 ```
 
 Usage
 ----
 
 ```sh
-$ node ntss --path=STATIC_PATH [--nlist=false if do not show list] [--default=index.html|index.htm|...]
+$ node index.js --path=STATIC_PATH [--port=PORT] [--nlist=false if do not show list] [--default=index.html|index.htm|...]
 ```
 
 Contribute
